@@ -1,0 +1,3 @@
+/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch12/feature_training/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch12/feature_training/cmake-build-debug/CMakeFiles/feature_training.dir
+/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch12/feature_training/cmake-build-debug/CMakeFiles/edit_cache.dir

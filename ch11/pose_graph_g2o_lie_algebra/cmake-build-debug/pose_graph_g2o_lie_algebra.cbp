@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pose_graph_g2o_lie_algebra"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\software\;CMake Files\..\..\..\..\..\..\..\software\Sophus\;CMake Files\..\..\..\..\..\..\..\software\Sophus\build\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pose_graph_g2o_lie_algebra">
+				<Option output="/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/pose_graph_g2o_lie_algebra" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/lihao/software/Sophus"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 pose_graph_g2o_lie_algebra"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pose_graph_g2o_lie_algebra/fast">
+				<Option output="/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/pose_graph_g2o_lie_algebra" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/lihao/software/Sophus"/>
+					<Add directory="/usr/include/suitesparse"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 pose_graph_g2o_lie_algebra/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/main.cpp">
+			<Option target="pose_graph_g2o_lie_algebra"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/../../../../../../../software/Sophus/build/SophusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\software\Sophus\build\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake_modules/FindCholmod.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_g2o_lie_algebra/cmake_modules/FindG2O.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,4 @@
+/home/lihao/software/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch7/pose_estimation_3d2d_g2o
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch7/pose_estimation_3d2d_g2o/cmake-build-debug

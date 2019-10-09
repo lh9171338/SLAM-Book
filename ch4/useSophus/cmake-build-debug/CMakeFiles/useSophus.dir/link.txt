@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/useSophus.dir/main.cpp.o  -o useSophus -Wl,-rpath,/home/lihao/software/Sophus/build /home/lihao/software/Sophus/build/libSophus.so 

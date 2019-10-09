@@ -1,0 +1,24 @@
+%YAML:1.0
+# data
+# the tum dataset directory, change it to yours!
+dataset_dir: /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch8/data/rgbd_dataset_freiburg1_desk
+savefile: ../trajectory.png
+
+# camera intrinsics
+# fr1
+fx: 517.3
+fy: 516.5
+cx: 325.1
+cy: 249.7
+depth_scale: 5000
+
+# VO paras
+number_of_features: 500
+scale_factor: 1.2
+level_pyramid: 4
+match_ratio: 2.0
+max_num_lost: 10
+min_inliers: 10
+keyframe_rotation: 0.1
+keyframe_translation: 0.1
+map_point_match_ratio: 0.4

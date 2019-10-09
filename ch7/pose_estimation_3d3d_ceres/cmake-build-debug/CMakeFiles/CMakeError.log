@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch7/pose_estimation_3d3d_ceres/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7efad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7efad.dir/build.make CMakeFiles/cmTC_7efad.dir/build
+make[1]: Entering directory '/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch7/pose_estimation_3d3d_ceres/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7efad.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7efad.dir/CheckSymbolExists.c.o   -c /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch7/pose_estimation_3d3d_ceres/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7efad
+/home/lihao/software/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7efad.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7efad.dir/CheckSymbolExists.c.o  -o cmTC_7efad 
+CMakeFiles/cmTC_7efad.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7efad.dir/build.make:86: recipe for target 'cmTC_7efad' failed
+make[1]: *** [cmTC_7efad] Error 1
+make[1]: Leaving directory '/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch7/pose_estimation_3d3d_ceres/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_7efad/fast' failed
+make: *** [cmTC_7efad/fast] Error 2
+
+File /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch7/pose_estimation_3d3d_ceres/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch7/pose_estimation_3d3d_ceres/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8010/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8010.dir/build.make CMakeFiles/cmTC_c8010.dir/build
+make[1]: Entering directory '/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch7/pose_estimation_3d3d_ceres/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8010.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c8010.dir/CheckFunctionExists.c.o   -c /home/lihao/software/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c8010
+/home/lihao/software/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8010.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c8010.dir/CheckFunctionExists.c.o  -o cmTC_c8010 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_c8010.dir/build.make:86: recipe for target 'cmTC_c8010' failed
+make[1]: *** [cmTC_c8010] Error 1
+make[1]: Leaving directory '/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch7/pose_estimation_3d3d_ceres/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_c8010/fast' failed
+make: *** [cmTC_c8010/fast] Error 2
+
+

@@ -1,0 +1,4 @@
+/home/lihao/software/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch7/feature_match
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch7/feature_match/cmake-build-debug

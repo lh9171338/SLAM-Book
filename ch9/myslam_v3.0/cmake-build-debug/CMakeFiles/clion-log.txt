@@ -1,0 +1,9 @@
+/home/lihao/software/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch9/myslam_v3.0
+-- Found installed version of Eigen: /usr/lib/cmake/eigen3
+-- Found required Ceres dependency: Eigen version 3.2.92 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 1.14.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch9/myslam_v3.0/cmake-build-debug

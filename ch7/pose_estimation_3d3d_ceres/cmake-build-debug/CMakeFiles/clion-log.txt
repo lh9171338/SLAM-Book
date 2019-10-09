@@ -1,0 +1,12 @@
+/home/lihao/software/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch7/pose_estimation_3d3d_ceres
+-- Found OpenCV: /usr/local (found version "3.4.4") 
+-- Found installed version of Eigen: /usr/lib/cmake/eigen3
+-- Found required Ceres dependency: Eigen version 3.2.92 in /usr/include/eigen3
+-- Found required Ceres dependency: glog
+-- Performing Test GFLAGS_IN_GOOGLE_NAMESPACE
+-- Performing Test GFLAGS_IN_GOOGLE_NAMESPACE - Success
+-- Found required Ceres dependency: gflags
+-- Found Ceres version: 1.14.0 installed in: /usr/local with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch7/pose_estimation_3d3d_ceres/cmake-build-debug

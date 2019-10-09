@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch9/myslam_v3.0/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d814b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d814b.dir/build.make CMakeFiles/cmTC_d814b.dir/build
+make[1]: Entering directory '/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch9/myslam_v3.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d814b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d814b.dir/CheckSymbolExists.c.o   -c /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch9/myslam_v3.0/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d814b
+/home/lihao/software/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d814b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d814b.dir/CheckSymbolExists.c.o  -o cmTC_d814b 
+CMakeFiles/cmTC_d814b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d814b.dir/build.make:86: recipe for target 'cmTC_d814b' failed
+make[1]: *** [cmTC_d814b] Error 1
+make[1]: Leaving directory '/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch9/myslam_v3.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_d814b/fast' failed
+make: *** [cmTC_d814b/fast] Error 2
+
+File /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch9/myslam_v3.0/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch9/myslam_v3.0/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d3b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3d3b6.dir/build.make CMakeFiles/cmTC_3d3b6.dir/build
+make[1]: Entering directory '/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch9/myslam_v3.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d3b6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3d3b6.dir/CheckFunctionExists.c.o   -c /home/lihao/software/clion-2018.3.4/bin/cmake/linux/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3d3b6
+/home/lihao/software/clion-2018.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d3b6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3d3b6.dir/CheckFunctionExists.c.o  -o cmTC_3d3b6 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3d3b6.dir/build.make:86: recipe for target 'cmTC_3d3b6' failed
+make[1]: *** [cmTC_3d3b6] Error 1
+make[1]: Leaving directory '/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch9/myslam_v3.0/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_3d3b6/fast' failed
+make: *** [cmTC_3d3b6/fast] Error 2
+
+

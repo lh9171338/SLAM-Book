@@ -1,0 +1,3 @@
+/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch12/gen_vocab_large/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch12/gen_vocab_large/cmake-build-debug/CMakeFiles/gen_vocab_large.dir
+/home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch12/gen_vocab_large/cmake-build-debug/CMakeFiles/edit_cache.dir

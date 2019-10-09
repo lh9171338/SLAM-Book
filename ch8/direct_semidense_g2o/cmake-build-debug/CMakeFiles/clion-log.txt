@@ -1,0 +1,21 @@
+/home/lihao/software/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch8/direct_semidense_g2o
+-- Found OpenCV: /usr/local (found version "3.4.4") 
+CMake Warning at CMakeLists.txt:14 (find_package):
+  By not providing "FindG2O.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "G2O", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "G2O" with any of
+  the following names:
+
+    G2OConfig.cmake
+    g2o-config.cmake
+
+  Add the installation prefix of "G2O" to CMAKE_PREFIX_PATH or set "G2O_DIR"
+  to a directory containing one of the above files.  If "G2O" provides a
+  separate development package or SDK, be sure it has been installed.
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch8/direct_semidense_g2o/cmake-build-debug

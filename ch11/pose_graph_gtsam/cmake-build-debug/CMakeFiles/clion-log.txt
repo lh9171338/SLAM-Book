@@ -1,0 +1,17 @@
+/home/lihao/software/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_gtsam
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   serialization
+--   system
+--   filesystem
+--   thread
+--   program_options
+--   date_time
+--   timer
+--   chrono
+--   regex
+--   atomic
+-- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lihao/workspace/opencv/SLAM/mycode/slamboot/ch11/pose_graph_gtsam/cmake-build-debug

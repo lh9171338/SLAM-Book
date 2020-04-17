@@ -2,4 +2,7 @@
 ===
 
 # 1. Intrduction
->>This repository is the source codes of slam book.
+>>This repository is the source codes of Gao Xiang's book "14 lectures on visual SLAM".
+
+# 2. More Resources
+ - Github: https://github.com/gaoxiang12/slambook
